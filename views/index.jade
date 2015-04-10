@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title!= title
+        script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js')
+        script(src='js/angular-ui-router.min.js')
+        script(src='index_init.js')
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    body(ui-view)

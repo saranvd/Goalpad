@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  display: list-item; /* this is the default, not needed */
+  text-align: -webkit-match-parent; /* this isn't needed */
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.grid-tile {
+  display: inline-block;
+  vertical-align: top;
+
+  /* margin: 0 0 .5em; */
+  padding: 15px 1.85644%;
+  position: relative;
+  width: 33%;
+  word-wrap: break-word;
+}
+
+
+
+.container{
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.tile {
+    display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */
+    margin-bottom: 20px;
+    width: 100%; 
+    word-wrap: break-word;
+    text-align: center;
+}
